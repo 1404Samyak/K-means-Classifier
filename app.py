@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 csv_file_path = r'C:\Users\mahap\OneDrive\Desktop\C++,JS python codes\.vscode\ML-DL-NLP\myenv\CompleteKmeansclassification\pollution.csv' 
-df = pd.read_csv(csv_file_path)
+df = pd.read_csv('pollution.csv')
 
 st.title("Air Quality Prediction")
 st.markdown("""
