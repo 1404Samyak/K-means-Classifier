@@ -1,0 +1,3 @@
+This is a classification test case solved using Kmeans classifier along with hyperparamter tuning to best parameters such as value of k and the algorithm to be used like KD Tree,Ball Tree,brute or auto
+For hyperparameter tuning StratifiedKFold is used as cv technique and Grid search cv is used for finding best possible parameters
+In this use case Kmeans classifier gives higher accuracy than the logistic regression model with multiclass='ovr'
